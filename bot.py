@@ -806,4 +806,5 @@ async def reset_user_error(ctx, error):
 # Run the bot
 # IMPORTANT: Replace "YOUR_BOT_TOKEN_HERE" with your actual Discord bot token.
 # The token provided in the original context is likely a placeholder or expired.
-bot.run("MTQxMTU4Njk1MTI0ODYxMzM5Nw.G5CX2I.55qC5y1ogyNbbGlny99Fwam3niaT60rcGIQ5j4")
+bot.run("")
+
