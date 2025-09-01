@@ -5,6 +5,7 @@ import random
 import sqlite3
 from datetime import datetime, timedelta
 from typing import Tuple, Dict, List # Added for type hints in games class
+import os
 
 # --- Configuration (from config.py) ---
 """
@@ -806,5 +807,6 @@ async def reset_user_error(ctx, error):
 # Run the bot
 # IMPORTANT: Replace "YOUR_BOT_TOKEN_HERE" with your actual Discord bot token.
 # The token provided in the original context is likely a placeholder or expired.
-bot.run("")
+bot.run(os.getenv("DISCORD_TOKEN"))
+
 
